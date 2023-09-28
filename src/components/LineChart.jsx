@@ -25,8 +25,9 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
         label: 'Price In USD',
         data: coinPrice,
         fill: false,
-        backgroundColor: '#0071bd',
-        borderColor: '#0071bd',
+        backgroundColor: '#8ed2ff',
+        borderColor: '#937AF2',
+        // tension: 0.2,
       },
     ],
   };

@@ -17,8 +17,8 @@ const Homepage = () => {
   if (isFetching) return <Loader />;
 
   return (
-    <>
-      <Title level={2} className="heading">Global Crypto Stats</Title>
+    <div className="home">
+      <Typography.Title level={2} className="gradient-heading"><Link to="/">Global Crypto Stats</Link></Typography.Title>
       <Row gutter={[32, 32]}>
         <Col span={12}><Statistic title="Total Cryptocurrencies" value={globalStats.total} /></Col>
         <Col span={12}><Statistic title="Total Exchanges" value={millify(globalStats.totalExchanges)} /></Col>
@@ -37,7 +37,7 @@ const Homepage = () => {
         <Title level={3}><Link to="/news">Show more</Link></Title>
       </div>
       <News simplified />
-    </>
+    </div>
   );
 };
 

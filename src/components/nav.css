@@ -14,7 +14,13 @@
 }
 
 typography, .ant-typography a {
-    color: #ffb957!important;
+    background-image: linear-gradient(285.49deg, rgb(148, 151, 157) -14.61%, rgb(118, 124, 175) 106.06%);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: unset;
 } 
 
 .ant-menu-title-content > a:hover{
@@ -32,17 +38,3 @@ typography, .ant-typography a {
         color: black!important;
     }
 }
-
-/* .fcNkEC {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
-    letter-spacing: -0.022px;
-    margin-top: auto;
-    background-image: linear-gradient(124.31deg, rgb(70, 227, 183) 0.18%, rgb(82, 124, 172) 89.2%);
-    -webkit-box-decoration-break: clone;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: unset;
-    } */
