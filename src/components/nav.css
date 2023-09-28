@@ -5,13 +5,12 @@
 }
 
 .menu-item:hover{
-    background: linear-gradient(90deg, #fcb045, #ffddad)!important;
-    color: black!important;
-    transition: 0.2s;
-}
-
-a:hover{
-    color: black!important;
+    background-image: linear-gradient(124.31deg, #46e3b7 0.18%, #527cac 89.2%)!important;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break:'clone';
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 typography, .ant-typography a {
@@ -19,10 +18,31 @@ typography, .ant-typography a {
 } 
 
 .ant-menu-title-content > a:hover{
-    color: #000000!important;
+    color: #18191B!important;
     transition: 0.2s;
 }
 
 .ant-input{
     border-radius: 5px!important;
 }
+
+.ant-menu-item-selected{
+    background: linear-gradient(124.31deg, rgb(70, 227, 183) 0.18%, rgb(82, 124, 172) 89.2%)!important;
+    .ant-menu-title-content > a{
+        color: black!important;
+    }
+}
+
+/* .fcNkEC {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.022px;
+    margin-top: auto;
+    background-image: linear-gradient(124.31deg, rgb(70, 227, 183) 0.18%, rgb(82, 124, 172) 89.2%);
+    -webkit-box-decoration-break: clone;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: unset;
+    } */

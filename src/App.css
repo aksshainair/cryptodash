@@ -3,20 +3,16 @@
     --text-primary:#000;
     --bgPrimary:#fff;
    --bgSecondary: #F9F9F9;
-   --pink: #ff9f0f;
+   --pink: #6964ff;
    --light-blue: #e6f7ff;
    --border: #d9d9d9;
-   --lblack: #121212;
+   --lblack: #18191B;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-a:hover{
-    color: var(--pink) !important;
 }
 
 .app{
@@ -272,6 +268,23 @@ a:hover{
     border-radius: 6px;
 }
 
+.logo > a{
+    font-weight: 700;
+    padding: 0;
+    font-size: 34px;
+    line-height: 48px;
+    letter-spacing: -0.022px;
+    margin-top: auto;
+    background: linear-gradient(129.06deg, rgb(154, 106, 255) 0%, rgb(96, 255, 199) 88.16%);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: unset;
+}
+
 @media screen and (max-width:1000px){
     .stats-container{
         flex-direction: column;
@@ -387,3 +400,9 @@ width: 70%;
     padding: 20px;
     align-items: center;
 }
+
+.routes{
+    background-color: var(--lblack);
+    color: #FEFCF9!important;
+}
+
